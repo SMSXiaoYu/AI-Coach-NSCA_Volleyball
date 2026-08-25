@@ -1,0 +1,16 @@
+# ========== Phase 1 核心：向量库 ==========
+chromadb==0.4.24
+sentence-transformers
+numpy==1.26.4
+
+# ========== Phase 1：文档预处理（PDF + EPUB） ==========
+pypdf>=4.0.0
+ebooklib>=0.18.0
+beautifulsoup4>=4.12.0
+
+# ========== Phase 1：LLM 调用（Ollama 兼容 OpenAI SDK） ==========
+openai>=1.0.0
+
+# ========== 工具 ==========
+pandas  # Chroma 依赖，顺带安装
+python-dotenv>=1.0.0  # 环境变量管理（可选）
