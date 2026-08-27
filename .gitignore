@@ -11,6 +11,10 @@ __pycache__/
 dist/
 build/
 
+# 测试脚本
+script.py
+test_*.py
+
 # 虚拟环境
 venv/
 env/
