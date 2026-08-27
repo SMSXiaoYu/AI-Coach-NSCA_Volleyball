@@ -4,10 +4,11 @@
 
 ## 🛠 技术栈
 
-Python + Chroma + Milvus + SentenceTransformer + Ollama(Qwen2.5)
+Python + Chroma + Milvus + SentenceTransformer + Cross-Encoder + Ollama(Qwen2.5)
 
-> - **Phase 1**：使用 Chroma 完成 MVP
-> - **Phase 2**：升级到 Milvus（分布式索引）
+> - **Phase 1**：Chroma（MVP）
+> - **Phase 2**：Milvus（分布式索引）
+> - **Phase 3**：HyDE + Rerank（检索优化）
 
 ## 📁 项目结构
 
@@ -18,7 +19,9 @@ src/
 ├── retrieval.py             # 纯检索（Chroma 版）
 ├── generation.py             # 检索 + 生成（Chroma 版主程序）
 ├── retrieval_milvus.py      # 纯检索（Milvus 版）
-├── generation_milvus.py     # 检索 + 生成（Milvus 版，当前主程序）
+├── generation_milvus.py     # 检索 + 生成（Milvus 版主程序）
+├── retrieval_hyde_rerank.py # 纯检索（HyDE + Rerank）
+├── generation_hyde_rerank.py # 检索 + 生成（HyDE + Rerank，当前主程序）
 └── migrate_to_milvus.py     # 数据迁移脚本（Chroma → Milvus）
 ```
 
@@ -49,11 +52,24 @@ python src/migrate_to_milvus.py
 python src/generation_milvus.py
 ```
 
+### Phase 3（HyDE + Rerank 版）
+
+```bash
+# 安装依赖
+pip install -r requirements.txt
+# 启动 Docker 并拉起 Milvus
+cd D:\Milvus
+docker-compose up -d
+# 启动 AI 教练（HyDE + Rerank 版）
+python src/generation_hyde_rerank.py
+```
+
 ## 📌 当前状态
 
 - ✅ Phase 1 已完成（2026-08-25）：4 本书，10609 个向量，支持中英文跨语言检索
 - ✅ Phase 2 已完成（2026-08-27）：Chroma → Milvus 升级（分布式索引）
-- 🔜 Phase 3-5 规划中
+- ✅ Phase 3 已完成（2026-08-27）：HyDE + Rerank 检索优化
+- 🔜 Phase 4-5 规划中
 
 > 最后更新：2026-08-27
 
