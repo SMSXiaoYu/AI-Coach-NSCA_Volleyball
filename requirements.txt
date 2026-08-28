@@ -1,6 +1,6 @@
 # ========== Phase 1 核心：向量库 ==========
 chromadb==0.4.24
-sentence-transformers
+sentence-transformers>=2.0.0
 numpy==1.26.4
 
 # ========== Phase 1：文档预处理（PDF + EPUB） ==========
@@ -8,9 +8,15 @@ pypdf>=4.0.0
 ebooklib>=0.18.0
 beautifulsoup4>=4.12.0
 
-# ========== Phase 1：LLM 调用（Ollama 兼容 OpenAI SDK） ==========
+# ========== Phase 1.5：LLM 调用（Ollama 兼容 OpenAI SDK） ==========
 openai>=1.0.0
 
+# ========== Phase 2：Milvus 向量数据库 ==========
+pymilvus>=2.3.0
+
+# ========== Phase 3：检索优化（Cross-Encoder Rerank） ==========
+# sentence-transformers 已包含 Cross-Encoder 支持
+
 # ========== 工具 ==========
-pandas  # Chroma 依赖，顺带安装
-python-dotenv>=1.0.0  # 环境变量管理（可选）
+pandas
+python-dotenv>=1.0.0

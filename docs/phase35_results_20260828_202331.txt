@@ -1,0 +1,184 @@
+======================================================================
+Phase 3.5: Performance Validation (优化版)
+测试时间: 2026-08-28 20:23:31
+======================================================================
+
+[1] 排球运动员和一般运动员在体能上有哪些独特的优势？
+--------------------------------------------------
+
+  Phase 2 (Milvus):
+    来源: Coaching Volleyball Successfully.txt
+    片段: gardless of the strength of the opponent. The nature of volleyball as a noncontact sport also influences the type of player that chooses to participate. Volleyball players tend to deal with frustration and aggression in very different ways than do athletes in team sports where physical contact can r...
+   🔍 HyDE: 生成假设答案...
+   📝 假设答案: 排球运动员通常具备出色的弹跳力、爆发力和协调性，这得益于排球运动中频繁的跳跃、快速改变方向和精准的控球技巧。相比之下，这些能力在一些其他体育项目中可能不那么突出...
+   📊 Rerank: 对 10 个结果重新打分...
+
+  Phase 3 (HyDE + Rerank):
+    来源: The_Vertical_Jump_Development_Bible.txt
+    分数: -6.4649
+    片段: k and field athletes, jumpers, throwers, olympic weightlifters, football players, volleyball players, as well as a few basketball players. You see, olympic or professional athletes achieve their spectacular leaping ability as a "side effect" of effective training principles and practices. Their appr...
+--------------------------------------------------
+
+[2] 排球运动员和田径运动员在运动能力上有哪些方面是类似的？哪些方面是不同的？
+--------------------------------------------------
+
+  Phase 2 (Milvus):
+    来源: Coaching Volleyball Successfully.txt
+    片段: gardless of the strength of the opponent. The nature of volleyball as a noncontact sport also influences the type of player that chooses to participate. Volleyball players tend to deal with frustration and aggression in very different ways than do athletes in team sports where physical contact can r...
+   🔍 HyDE: 生成假设答案...
+   📝 假设答案: 排球运动员和田径运动员在速度、力量和协调性方面有相似之处，都需要强大的下肢力量和出色的爆发力。然而，排球运动员更注重手眼协调和反应速度，而田径运动员则侧重于耐力...
+   📊 Rerank: 对 10 个结果重新打分...
+
+  Phase 3 (HyDE + Rerank):
+    来源: Essentials of Strength Training and Conditioning -- NSCA.txt
+    分数: -6.6771
+    片段: ount of muscular force in a short amount of time. American football, baseball, and sprinting generally require horizontal or lateral movement during competition, while volleyball involves primarily horizontal and vertical movements. Soccer and basketball players must make quick, powerful movements a...
+--------------------------------------------------
+
+[3] 哪些弹跳训练对排球运动员是特别合适的？
+--------------------------------------------------
+
+  Phase 2 (Milvus):
+    来源: Coaching Volleyball Successfully.txt
+    片段: applies to volleyball movements as well. 4. Be effective and efficient by designing warm-up drills that use volleyball-specific movements. For example, during the jogging phase of warm-up, have players practice footwork patterns for blocking, spiking, and moving into position to contact the ball. Du...
+   🔍 HyDE: 生成假设答案...
+   📝 假设答案: 对于排球运动员来说，特别合适的弹跳训练主要包括跳绳、深蹲跳和箱跳。跳绳能够提高下肢爆发力和协调性；深蹲跳有助于增强腿部肌肉力量和弹跳能力；箱跳则可以提升核心稳定...
+   📊 Rerank: 对 10 个结果重新打分...
+
+  Phase 3 (HyDE + Rerank):
+    来源: 体育健身训练丛书：营养 训练 放松 损伤预防（套装全10册）.txt
+    分数: 6.6591
+    片段: 所有这些练习都需要优秀的核心肌肉力量才能正确执行，这进一步反映了将它们包含在排球训练计划中的必要性。 对排球运动员而言，高速扣球的能力也是非常有价值的。这种能力可以通过增加躯干和肩带肌肉的力量和爆发力来提升，方法是使用各种阻力训练和上半身增强式活动。可以使用阻力训练来帮助加强这些部位，比如仰卧推举、站立过顶推举、肩上推举和仰卧臂拉起。使用药球的增强式活动可以增加核心肌肉的旋转力量和爆发力，同时加入扣球时发生的上肢动作，也可以将更多的训练成果转换为运动表现。 核心发展训练 很多人认为训练核心肌肉和训练腹部肌肉一样。虽然腹部训练是发展核心肌肉的重要方面，但是背部肌肉的训练也非常重要（Hedrick...
+--------------------------------------------------
+
+[4] 对于弹跳力的训练和运动，在热身、放松以及伤病管理上应该注意什么？
+--------------------------------------------------
+
+  Phase 2 (Milvus):
+    来源: Essentials of Strength Training and Conditioning -- NSCA.txt
+    片段: hysical resources. Physical Relaxation Techniques Several physical techniques can help athletes manage their psychological processes through relaxation. Relaxation techniques are designed to reduce physiological arousal and increase task-­relevant focus. These techniques are important when people ar...
+   🔍 HyDE: 生成假设答案...
+   📝 假设答案: 在训练和提高弹跳力时，热身活动应侧重于提高下肢肌肉的温度和灵活性，如快走、慢跑和动态拉伸。训练过程中应逐渐增加强度，避免突然加大负荷导致受伤。训练后进行静态拉伸...
+   📊 Rerank: 对 10 个结果重新打分...
+
+  Phase 3 (HyDE + Rerank):
+    来源: Essentials of Strength Training and Conditioning -- NSCA.txt
+    分数: -6.4250
+    片段: red for the sport, such as the walking knee lift. This is followed by sport-specific movements of increasing intensity such as sprint drills, bounding activities, or jumping. The more power necessary for the sport or activity, the more important the warm-up becomes (35). Including high-intensity dyn...
+--------------------------------------------------
+
+[5] 排球运动员可以向健美运动员学习哪些方面内容？
+--------------------------------------------------
+
+  Phase 2 (Milvus):
+    来源: Coaching Volleyball Successfully.txt
+    片段: ; do not expect them to come up to yours. Consider individual differences. Teach volleyball skills according to the ability of each player. Some players will be fast learners who will progress rapidly. Other players will not learn as quickly, so you will need to proceed more slowly with them.
+   🔍 HyDE: 生成假设答案...
+   📝 假设答案: 排球运动员可以从健美运动员那里学习到肌肉控制与塑造方面的知识，提升身体的爆发力与灵活性；同时，健美训练中的呼吸控制技巧也能帮助排球运动员在比赛中更好地调整状态，...
+   📊 Rerank: 对 10 个结果重新打分...
+
+  Phase 3 (HyDE + Rerank):
+    来源: 体育健身训练丛书：营养 训练 放松 损伤预防（套装全10册）.txt
+    分数: 7.0534
+    片段: 所有这些练习都需要优秀的核心肌肉力量才能正确执行，这进一步反映了将它们包含在排球训练计划中的必要性。 对排球运动员而言，高速扣球的能力也是非常有价值的。这种能力可以通过增加躯干和肩带肌肉的力量和爆发力来提升，方法是使用各种阻力训练和上半身增强式活动。可以使用阻力训练来帮助加强这些部位，比如仰卧推举、站立过顶推举、肩上推举和仰卧臂拉起。使用药球的增强式活动可以增加核心肌肉的旋转力量和爆发力，同时加入扣球时发生的上肢动作，也可以将更多的训练成果转换为运动表现。 核心发展训练 很多人认为训练核心肌肉和训练腹部肌肉一样。虽然腹部训练是发展核心肌肉的重要方面，但是背部肌肉的训练也非常重要（Hedrick...
+--------------------------------------------------
+
+[6] 排球运动员在饮食上有哪些需要注意的地方？
+--------------------------------------------------
+
+  Phase 2 (Milvus):
+    来源: Essentials of Strength Training and Conditioning -- NSCA.txt
+    片段: inerals, and water. Standard Nutrition Guidelines Most athletes have two basic dietary goals: eating to maximize performance and eating for optimal body composition. Some athletes also want diets that promote good health, that is, prevent chronic diseases such as heart disease and cancer.
+   🔍 HyDE: 生成假设答案...
+   📝 假设答案: 排球运动员在饮食上需注重营养均衡与能量补充，应增加蛋白质摄入以促进肌肉恢复，同时保证碳水化合物的充足以维持高强度训练所需能量。此外，运动员还需注意补充维生素和矿...
+   📊 Rerank: 对 10 个结果重新打分...
+
+  Phase 3 (HyDE + Rerank):
+    来源: 体育健身训练丛书：营养 训练 放松 损伤预防（套装全10册）.txt
+    分数: 8.1974
+    片段: 须通过饮食摄入这些维生素和矿物质。因此对运动员和进行身体锻炼的个人而言，平衡膳食是非常重要的一件事。平衡膳食是指含有足量的必需营养物质来保证健康生长和活动。为了确保膳食平衡，运动员应定期摄取以下类型的食物： ■ 瘦肉（家禽、鱼肉、低脂猪肉、低脂牛肉等）。 ■ 水果（苹果、香蕉、葡萄、橘子、菠萝、草莓等）。 ■ 蔬菜（花椰菜、菠菜、青豆、胡萝卜等）。 这不是运动员每天应摄取的食物的完整列表，而是他们应该频繁一致地选择的食物类型。对于不能持续地食用这些食物的运动员或进行身体锻炼的个人而言，他们需要谨慎地服用多种维生素以防止营养不良。美国医学会（American Medical Associatio...
+--------------------------------------------------
+
+[7] 哪些田径训练可以辅助排球的训练？
+--------------------------------------------------
+
+  Phase 2 (Milvus):
+    来源: Coaching Volleyball Successfully.txt
+    片段: applies to volleyball movements as well. 4. Be effective and efficient by designing warm-up drills that use volleyball-specific movements. For example, during the jogging phase of warm-up, have players practice footwork patterns for blocking, spiking, and moving into position to contact the ball. Du...
+   🔍 HyDE: 生成假设答案...
+   📝 假设答案: 田径训练中的短跑、跳跃和耐力跑等项目可以有效辅助排球训练。短跑能够提升排球运动员的速度和爆发力；跳跃训练有助于增强弹跳力和身体协调性；而耐力跑则可以提高运动员的...
+   📊 Rerank: 对 10 个结果重新打分...
+
+  Phase 3 (HyDE + Rerank):
+    来源: 体育健身训练丛书：营养 训练 放松 损伤预防（套装全10册）.txt
+    分数: 6.8622
+    片段: 所有这些练习都需要优秀的核心肌肉力量才能正确执行，这进一步反映了将它们包含在排球训练计划中的必要性。 对排球运动员而言，高速扣球的能力也是非常有价值的。这种能力可以通过增加躯干和肩带肌肉的力量和爆发力来提升，方法是使用各种阻力训练和上半身增强式活动。可以使用阻力训练来帮助加强这些部位，比如仰卧推举、站立过顶推举、肩上推举和仰卧臂拉起。使用药球的增强式活动可以增加核心肌肉的旋转力量和爆发力，同时加入扣球时发生的上肢动作，也可以将更多的训练成果转换为运动表现。 核心发展训练 很多人认为训练核心肌肉和训练腹部肌肉一样。虽然腹部训练是发展核心肌肉的重要方面，但是背部肌肉的训练也非常重要（Hedrick...
+--------------------------------------------------
+
+[8] 排球运动员想全方位地提高爆发力，可以做哪些训练？
+--------------------------------------------------
+
+  Phase 2 (Milvus):
+    来源: Coaching Volleyball Successfully.txt
+    片段: ing. Physical conditioning is an ongoing process. Areas that need attention for volleyball players include strength and power training through a well-planned, well-supervised weight training program; jump training to increase vertical jumping ability through power, endurance, and technique practice;...
+   🔍 HyDE: 生成假设答案...
+   📝 假设答案: 排球运动员要提高爆发力，可以进行多种训练。包括短距离冲刺跑来增强腿部力量和速度，跳绳和单脚跳提升下肢爆发力和协调性，以及使用弹力带的阻力训练增强肌肉力量和弹性。...
+   📊 Rerank: 对 10 个结果重新打分...
+
+  Phase 3 (HyDE + Rerank):
+    来源: 体育健身训练丛书：营养 训练 放松 损伤预防（套装全10册）.txt
+    分数: 7.6002
+    片段: 所有这些练习都需要优秀的核心肌肉力量才能正确执行，这进一步反映了将它们包含在排球训练计划中的必要性。 对排球运动员而言，高速扣球的能力也是非常有价值的。这种能力可以通过增加躯干和肩带肌肉的力量和爆发力来提升，方法是使用各种阻力训练和上半身增强式活动。可以使用阻力训练来帮助加强这些部位，比如仰卧推举、站立过顶推举、肩上推举和仰卧臂拉起。使用药球的增强式活动可以增加核心肌肉的旋转力量和爆发力，同时加入扣球时发生的上肢动作，也可以将更多的训练成果转换为运动表现。 核心发展训练 很多人认为训练核心肌肉和训练腹部肌肉一样。虽然腹部训练是发展核心肌肉的重要方面，但是背部肌肉的训练也非常重要（Hedrick...
+--------------------------------------------------
+
+[9] 排球运动员应该如何对待野球(pick-up game)？
+--------------------------------------------------
+
+  Phase 2 (Milvus):
+    来源: Coaching Volleyball Successfully.txt
+    片段: s, strong arms, and the ability to block. Two right-side hitterseach will hit twice on the right and once on the left. These players can be right or left-handed. They need quickness and good movement skills. They should be able to block the middle.
+   🔍 HyDE: 生成假设答案...
+   📝 假设答案: 排球运动员在参与野球时，应保持积极态度，将野球视为提升技巧和团队协作的机会。在享受比赛的同时，不应忽视规则和安全，注重与队友间的交流与配合，通过野球锻炼自己的灵...
+   📊 Rerank: 对 10 个结果重新打分...
+
+  Phase 3 (HyDE + Rerank):
+    来源: Coaching Volleyball Successfully.txt
+    分数: -6.6224
+    片段: positive examples at practices and games. Everyone is important. Treat each player as an important human being. Each player has a different personality and different needs. Be sensitive to these differences and show interest and concern for each team member. Consider the ages and skill levels of you...
+--------------------------------------------------
+
+[10] 非赛季期间，排球运动员应该怎样控制运动的强度？
+--------------------------------------------------
+
+  Phase 2 (Milvus):
+    来源: Coaching Volleyball Successfully.txt
+    片段: gardless of the strength of the opponent. The nature of volleyball as a noncontact sport also influences the type of player that chooses to participate. Volleyball players tend to deal with frustration and aggression in very different ways than do athletes in team sports where physical contact can r...
+   🔍 HyDE: 生成假设答案...
+   📝 假设答案: 在非赛季期间，排球运动员可以通过制定合理的训练计划来控制运动强度。建议采用周期性训练，结合力量、耐力和灵活性训练，同时注意休息与恢复，避免过度训练导致的伤害。合...
+   📊 Rerank: 对 10 个结果重新打分...
+
+  Phase 3 (HyDE + Rerank):
+    来源: Coaching Volleyball Successfully.txt
+    分数: -5.8487
+    片段: ing. Physical conditioning is an ongoing process. Areas that need attention for volleyball players include strength and power training through a well-planned, well-supervised weight training program; jump training to increase vertical jumping ability through power, endurance, and technique practice;...
+--------------------------------------------------
+
+[11] 除了扣球、拦网、后排进攻、大力跳发球的动作模式，排球运动员还可以做哪些类似的跳跃运动来提升自己的弹跳力和爆发力？
+--------------------------------------------------
+
+  Phase 2 (Milvus):
+    来源: Coaching Volleyball Successfully.txt
+    片段: keys: RunAccelerate to the jump JumpJump off both feet and throw your hands up HitContact the ball at a point high and in front of you Teaching Progression Spiking is the most motivational individual volleyball skill. Every player likes to smack the ball, and every player should get the chance to do...
+   🔍 HyDE: 生成假设答案...
+   📝 假设答案: 除了上述技术动作，排球运动员还可以通过进行单脚跳跃、双脚弹跳和蛙跳等跳跃运动来提升弹跳力和爆发力。这些练习不仅能够增强下肢力量，还能提高身体协调性和灵活性，进一...
+   📊 Rerank: 对 10 个结果重新打分...
+
+  Phase 3 (HyDE + Rerank):
+    来源: Coaching Volleyball Successfully.txt
+    分数: -6.0480
+    片段: keys: RunAccelerate to the jump JumpJump off both feet and throw your hands up HitContact the ball at a point high and in front of you Teaching Progression Spiking is the most motivational individual volleyball skill. Every player likes to smack the ball, and every player should get the chance to do...
+--------------------------------------------------
+
+======================================================================
+✅ 完成。结果已保存至: docs/phase35_results_20260828_202331.txt
+======================================================================
