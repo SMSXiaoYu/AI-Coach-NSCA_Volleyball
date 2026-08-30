@@ -4,11 +4,12 @@
 
 ## 🛠 技术栈
 
-Python + Chroma + Milvus + SentenceTransformer + Cross-Encoder + Ollama(Qwen2.5)
+Python + Chroma + Milvus + SentenceTransformer + Cross-Encoder + Ollama(Qwen2.5) + FastAPI + Gradio
 
 > - **Phase 1**：Chroma（MVP）
 > - **Phase 2**：Milvus（分布式索引）
 > - **Phase 3**：HyDE + Rerank（检索优化）
+> - **Phase 4**：FastAPI + Gradio（产品化）
 
 ## 📁 项目结构
 
@@ -22,7 +23,17 @@ src/
 ├── generation_milvus.py     # 检索 + 生成（Milvus 版主程序）
 ├── retrieval_hyde_rerank.py # 纯检索（HyDE + Rerank）
 ├── generation_hyde_rerank.py # 检索 + 生成（HyDE + Rerank，当前主程序）
+├── performance_validation.py # 性能验证（Phase 3.5 测试脚本）
 └── migrate_to_milvus.py     # 数据迁移脚本（Chroma → Milvus）
+
+docs/
+└── phase35_results_*.txt    # Phase 3.5 实验报告
+
+api/
+└── main.py                  # FastAPI 后端服务
+
+frontend/
+└── app.py                   # Gradio 前端界面
 ```
 
 ## 🚀 快速开始
@@ -64,14 +75,30 @@ docker-compose up -d
 python src/generation_hyde_rerank.py
 ```
 
+### Phase 4（Web 产品版）
+
+```bash
+# 安装依赖
+pip install -r requirements.txt
+# 启动 Docker 并拉起 Milvus
+cd D:\Milvus
+docker-compose up -d
+# 启动后端（终端1）
+python api/main.py
+# 启动前端（终端2）
+python frontend/app.py
+```
+
 ## 📌 当前状态
 
 - ✅ Phase 1 已完成（2026-08-25）：4 本书，10609 个向量，支持中英文跨语言检索
 - ✅ Phase 2 已完成（2026-08-27）：Chroma → Milvus 升级（分布式索引）
 - ✅ Phase 3 已完成（2026-08-27）：HyDE + Rerank 检索优化
-- 🔜 Phase 4-5 规划中
+- ✅ Phase 3.5 已完成（2026-08-28）：Performance Validation，首条命中率从 27.3% 提升至 45.5%
+- ✅ Phase 4 已完成（2026-08-30）：Productization，FastAPI + Gradio Web 应用
+- 🔜 Phase 5 规划中
 
-> 最后更新：2026-08-27
+> 最后更新：2026-08-30
 
 ## 📄 License
 

@@ -49,3 +49,6 @@ Thumbs.db
 
 # 处理后的文本（大文件，可重新生成）
 data/processed/*.txt
+
+# ========== Phase 4: Gradio 运行时缓存 ==========
+.gradio/
